@@ -1,0 +1,83 @@
+@charset 'UTF-8';
+
+html,
+body {
+    font-family: 'DBHeaventLi' !important;
+}
+
+a {
+    display: block;
+    text-decoration: none !important;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+a, p {
+    font-size: 24px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+    line-height: 33.6px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+// fonts face
+@font-face {
+    font-family: 'DBHeaventBd';
+    src: url('../../assets/fonts/DBHeavent/DBHeaventBd.ttf');
+}
+
+@font-face {
+    font-family: 'DBHeavent';
+    src: url('../../assets/fonts/DBHeavent/DBHeavent.ttf');
+}
+
+@font-face {
+    font-family: 'DBHeaventMed';
+    src: url('../../assets/fonts/DBHeavent/DBHeaventMed.ttf');
+}
+
+@font-face {
+    font-family: 'DBHeaventLi';
+    src: url('../../assets/fonts/DBHeavent/DBHeaventLi.ttf');
+}
+
+// Import
+@import '_body';
